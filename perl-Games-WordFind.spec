@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Games::WordFind
 Summary(zh_CN):	Games::WordFind Perl дё©И
 Name:		perl-Games-WordFind
 Version:	0.02
-Release:	12
+Release:	13
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
