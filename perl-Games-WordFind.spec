@@ -25,7 +25,8 @@ Summary(zh_CN):	Games::WordFind Perl Ä£¿é
 Name:		perl-Games-WordFind
 Version:	0.02
 Release:	13
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	28bfa49532f2a49fd455fbd3b9afeb9e
