@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Games::WordFind
 Summary(it):	Modulo di Perl Games::WordFind
 Summary(ja):	Games::WordFind Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Games::WordFind ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Games::WordFind
+Summary(nb):	Perlmodul Games::WordFind
 Summary(pl):	Modu³ Perla Games::WordFind
 Summary(pt):	Módulo de Perl Games::WordFind
 Summary(pt_BR):	Módulo Perl Games::WordFind
