@@ -1,3 +1,7 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Games
 %define		pnam	WordFind
@@ -20,7 +24,7 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Games::WordFind
 Summary(zh_CN):	Games::WordFind Perl Ä£¿é
 Name:		perl-Games-WordFind
 Version:	0.02
-Release:	11
+Release:	12
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -42,6 +46,7 @@ Games::WordFind udostêpnia klasê do generowania uk³adanek s³ownych.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -58,8 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_sitelib}/Games/WordFind.pm
 %dir %{perl_sitelib}/auto/Games
-%dir %{perl_sitelib}/auto/Games/WordFind
-%{perl_sitelib}/auto/Games/WordFind/autosplit.ix
+# empty autosplit.ix
+#%dir %{perl_sitelib}/auto/Games/WordFind
+#%{perl_sitelib}/auto/Games/WordFind/autosplit.ix
 %{_mandir}/man3/*
 %dir %{_examplesdir}/%{name}-%{version}
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}/*
