@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Games
-%define	pnam	WordFind
+%define		pdir	Games
+%define		pnam	WordFind
 Summary:	Games::WordFind Perl module
 Summary(cs):	Modul Games::WordFind pro Perl
 Summary(da):	Perlmodul Games::WordFind
@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Games::WordFind
 Summary(zh_CN):	Games::WordFind Perl дё©И
 Name:		perl-Games-WordFind
 Version:	0.02
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -57,6 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_sitelib}/Games/WordFind.pm
+%dir %{perl_sitelib}/auto/Games
+%dir %{perl_sitelib}/auto/Games/WordFind
+%{perl_sitelib}/auto/Games/WordFind/autosplit.ix
 %{_mandir}/man3/*
 %dir %{_examplesdir}/%{name}-%{version}
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}/*
