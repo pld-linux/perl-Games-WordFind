@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Games
 %define	pnam	WordFind
-Summary:	Games-WordFind perl module
-Summary(pl):	Modu³ perla Games-WordFind
+Summary:	Games::WordFind perl module
+Summary(pl):	Modu³ perla Games::WordFind
 Name:		perl-Games-WordFind
 Version:	0.02
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Games-WordFind module simply provides a class which can be used to
+Games::WordFind module simply provides a class which can be used to
 generate WordFind type puzzles.
 
 %description -l pl
-Games-WordFind udostêpnia klasê do generowania puzzli.
+Games::WordFind udostêpnia klasê do generowania puzzli.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
