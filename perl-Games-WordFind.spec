@@ -3,7 +3,7 @@ Summary:	Games-WordFind perl module
 Summary(pl):	Modu³ perla Games-WordFind
 Name:		perl-Games-WordFind
 Version:	0.02
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
