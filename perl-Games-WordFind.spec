@@ -9,7 +9,7 @@ Summary:	Games::WordFind - class for generating "word find" type puzzles
 Summary(pl):	Games::WordFind - klasa do generowania uk³adanek s³ownych
 Name:		perl-Games-WordFind
 Version:	0.02
-Release:	13
+Release:	14
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
