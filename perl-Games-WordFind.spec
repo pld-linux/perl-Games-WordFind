@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Games
-%define	pnam	WordFind
+%define		pdir	Games
+%define		pnam	WordFind
 Summary:	Games::WordFind - class for generating "word find" type puzzles
 Summary(pl):	Games::WordFind - klasa do generowania uk³adanek s³ownych
 Name:		perl-Games-WordFind
