@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Games-WordFind
 Name:		perl-Games-WordFind
 Version:	0.02
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Games/Games-WordFind-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Games/Games-WordFind-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,8 +15,8 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Games-WordFind module simply provides a class which can be used to generate 
-WordFind type puzzles.
+Games-WordFind module simply provides a class which can be used to
+generate WordFind type puzzles.
 
 %description -l pl
 Games-WordFind udostêpnia klasê do generowania puzzli.
