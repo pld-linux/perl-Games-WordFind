@@ -46,7 +46,7 @@ Games::WordFind udostêpnia klasê do generowania uk³adanek s³ownych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
