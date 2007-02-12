@@ -6,7 +6,7 @@
 %define		pdir	Games
 %define		pnam	WordFind
 Summary:	Games::WordFind - class for generating "word find" type puzzles
-Summary(pl):	Games::WordFind - klasa do generowania uk³adanek s³ownych
+Summary(pl.UTF-8):   Games::WordFind - klasa do generowania ukÅ‚adanek sÅ‚ownych
 Name:		perl-Games-WordFind
 Version:	0.02
 Release:	14
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Games::WordFind Perl module simply provides a class which can be used
 to generate "word find" type puzzles.
 
-%description -l pl
-Games::WordFind udostêpnia klasê do generowania uk³adanek s³ownych.
+%description -l pl.UTF-8
+Games::WordFind udostÄ™pnia klasÄ™ do generowania ukÅ‚adanek sÅ‚ownych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
